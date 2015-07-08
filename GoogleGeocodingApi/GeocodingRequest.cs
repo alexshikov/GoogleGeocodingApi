@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Globalization;
 
 namespace GoogleGeocodingApi
 {
@@ -39,6 +40,12 @@ namespace GoogleGeocodingApi
 			if (Components != null)
 			{
 				url += "&components=" + string.Join ("|", from c in Components select c.ToUrlString ());
+			}
+			if (Location != null)
+			{
+				url += string.Format ("&latlng={0},{1}", 
+							Location.Latitude.ToString (CultureInfo.InvariantCulture), 
+							Location.Longitude.ToString (CultureInfo.InvariantCulture));
 			}
 			return url;
 		}
