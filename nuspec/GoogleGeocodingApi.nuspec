@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>GoogleGeocodingApi</id>
+    <version>1.0</version>
+    <title>Google Geocoding Api (PCL)</title>
+    <authors>SeeD-Seifer</authors>
+    <owners>SeeD-Seifer</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/SeeD-SeiferGoogleGeocodingApi</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A PCL implementation of Google Geocoding Api</description>
+    <tags>xamarin pcl google geocoding geocoder</tags>
+    <dependencies>
+      <dependency id="Microsoft.Net.Http" version="2.2.29" />
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="../GoogleGeocodingApi/bin/Release/GoogleGeocodingApi.dll" target="lib/portable-win+net45+wp8+win8+wpa81/GoogleGeocodingApi.dll" />
+  </files>
+</package>
