@@ -2,9 +2,9 @@
 
 namespace GoogleGeocodingApi
 {
-	public enum AddressComponentType 
+	public enum AddressType
 	{
-		UNKNOWN,
+		UNKOWN,
 		STREET_ADDRESS,
 		ROUTE,
 		INTERSECTION,
@@ -29,22 +29,19 @@ namespace GoogleGeocodingApi
 		PREMISE,
 		SUBPREMISE,
 		POSTAL_CODE,
-		POSTAL_CODE_PREFIX,
-		POSTAL_CODE_SUFFIX,
 		NATURAL_FEATURE,
 		AIRPORT,
+		UNIVERSITY,
 		PARK,
 		POINT_OF_INTEREST,
-		FLOOR,
 		ESTABLISHMENT,
-		PARKING,
-		POST_BOX,
-		POSTAL_TOWN,
-		ROOM,
-		STREET_NUMBER,
 		BUS_STATION,
 		TRAIN_STATION,
 		TRANSIT_STATION,
+		CHURCH,
+		FINANCE,
+		POST_OFFICE,
+		PLACE_OF_WORSHIP,	
 	}
 }
 

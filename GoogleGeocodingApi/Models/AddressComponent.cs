@@ -12,7 +12,7 @@ namespace GoogleGeocodingApi
 		public string ShortName { get; set; }
 
 		[JsonProperty ("types")]
-		public AddressType[] Types { get; set; }
+		public AddressComponentType[] Types { get; set; }
 	}
 }
 
